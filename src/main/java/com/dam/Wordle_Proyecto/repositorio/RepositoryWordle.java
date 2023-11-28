@@ -36,7 +36,7 @@ public static Connection conexion;
 		}
 	}
 
-	public void createTable() {
+	public void createTable() {                                                    //metodo para crear tablas con jdbc
 		abrirConexion();
 	    String createTablePalabras = "CREATE TABLE IF NOT EXISTS Palabras (" +
 	            "id_palabra INT AUTO_INCREMENT PRIMARY KEY," +
@@ -71,5 +71,6 @@ public static Connection conexion;
 	    	cerrarConexion();
 	    }
 	}
+	
 
 }
