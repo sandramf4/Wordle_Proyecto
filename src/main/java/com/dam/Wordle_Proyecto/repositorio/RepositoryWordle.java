@@ -61,8 +61,8 @@ public static Connection conexion;
 	    		+ "    FOREIGN KEY (idJugador) REFERENCES Jugador(id));";
 	    try {
 	        Statement statement = conexion.createStatement();
-	        statement.execute(createTableCategoria);
-	        statement.execute(createTablePalabras);
+	        //statement.execute(createTableCategoria);
+	        //statement.execute(createTablePalabras);
 	        statement.execute(createTableJugador);
 	        statement.execute(createTableIntentos);
 	    } catch (Exception e) {

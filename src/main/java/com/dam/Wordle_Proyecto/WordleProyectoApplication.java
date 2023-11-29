@@ -8,6 +8,7 @@ public class WordleProyectoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WordleProyectoApplication.class, args);
+		
 	}
 
 }
